@@ -1,0 +1,79 @@
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("http://cdn.ideastations.org.s3.amazonaws.com/article-images/article-width/dog-cat.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+button {
+  color: white;
+  background: black;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+}
+
+button:hover {
+  background:	grey;
+}
+
+.carousel {
+  width: 50%;
+  height: 400px;
+  display: block;
+  margin:0 auto;
+  border: 1px black dashed;
+}
+
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+
+#vote-container {
+  margin-top: 25px;
+  display: none;
+}
+
+.likes {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+.fa-heart {
+  color: grey;
+}
+
+.fa-heart:hover {
+  color: black;
+}
+
+.score {
+  color: black;
+}
+
+body {
+  background-color: #D3D3D3;
+}
