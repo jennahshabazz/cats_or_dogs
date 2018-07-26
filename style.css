@@ -1,7 +1,7 @@
 /* The hero image */
 .hero-image {
     /* The image used */
-    background-image: url("http://cdn.ideastations.org.s3.amazonaws.com/article-images/article-width/dog-cat.jpg");
+    background-image: url("https://phz8.petinsurance.com/-/media/all-phz-images/2016-images-850/dogandcatonbed850.jpg");
 
     /* Set a specific height */
     height: 500px;
@@ -20,7 +20,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white;
 }
 
 button {
